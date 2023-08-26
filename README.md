@@ -14,5 +14,6 @@ During the prototyping process, I worked closely with a customer from Kazakhstan
 ![image](./Img/Desktop.png)
 
 ## Now
-Now I have started frontend development and finished working on the "Matches" page.<img src="https://github.com/AndreiExtr/andreiExtr/blob/main/Gifs/glasses.gif" height="24"/>
+Now I have started frontend development and finished working on the "Matches" page. I continue to work on the project.<img src="https://github.com/AndreiExtr/andreiExtr/blob/main/Gifs/glasses.gif" height="24"/>
+
 [See demo](https://andreiextr.github.io/NukleBall/)
