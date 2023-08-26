@@ -240,14 +240,14 @@ form {
   .timer__items {
     display: flex;
     color: #c40b0b;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .timer__item {
     position: relative;
-    min-width: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
+    min-width: 32px;
+    margin-left: 12px;
+    margin-right: 12px;
     padding-bottom: 15px;
     text-align: center;
   }
@@ -272,7 +272,7 @@ form {
     position: relative;
     width: 55px;
     height: 83px;
-    padding-right: 24px;
+    padding-right: 16px;
     text-align: center;
     font-family: Play;
   }
