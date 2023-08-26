@@ -229,6 +229,7 @@ form {
   }
   .b15 {
     position: relative;
+    padding-bottom: 14px;
     font-size: 40px;}
 
 .h3 {
@@ -272,7 +273,7 @@ form {
     position: relative;
     width: 55px;
     height: 83px;
-    padding-right: 16px;
+    padding-right: 32px;
     text-align: center;
     font-family: Play;
   }
@@ -280,7 +281,7 @@ form {
     position: relative;
     width: 55px;
     height: 83px;
-    padding-left: 24px;
+    padding-left: 32px;
     text-align: center;
     font-family: Play;
   }
