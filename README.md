@@ -4,6 +4,6 @@ The NukleBall service is designed to quickly and efficiently connect teams and a
 ## Task
 + Develop design prototypes in Figma
 + UI KIT
-![image](./Img/UIKIT.png)
++ [image](./Img/UI KIT.png)
 
 [See demo](https://andreiextr.github.io/NukleBall/)
