@@ -4,14 +4,14 @@ The NukleBall service is designed to quickly and efficiently connect teams and a
 ## Task
 + Develop design prototypes in Figma
 + UI KIT
-
+![image](./Img/Ui_Kit.png)
 
 ## Process
 During the prototyping process, I worked closely with a customer from Kazakhstan. I was looking for project references, working on usability, conducting surveys on respondents.
 + ux research
 + competitor analysis
 + prototyping
-
+![image](./Img/Desktop.png)
 
 ## Now 
 
