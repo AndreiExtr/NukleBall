@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
         page2.style.display = "block";
     });
 
+
     page3Link.addEventListener("click", function() {
         hideAllPages();
         page3.style.display = "block";
@@ -66,4 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
         hideAllPages();
         page7.style.display = "block";
     });
+
 });
+
+
