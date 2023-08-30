@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         page7.style.display = "none";
     }
 
-    // Начнем с отображения первой страницы
+    // Начнем с отображения первой страницы "Матчи"
     hideAllPages();
     page1.style.display = "block";
 

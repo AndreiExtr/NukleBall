@@ -171,8 +171,9 @@ form {
   }
   h1{
     float: left;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: auto;
+  padding: 0;
+  margin: 0;
   }
 
   .tabs {
@@ -381,7 +382,6 @@ form {
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
 }
 
 .icon_filters:hover {
@@ -391,7 +391,6 @@ form {
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
 }
 
 .list{
@@ -607,8 +606,8 @@ h3{
   fill: #DDDDDD;
   width: 24px;
   height: 24px;
+  margin-right: 16px;
   text-align: center;
-  padding: 8px;
 }
 
 .icon_left:hover {
@@ -618,18 +617,25 @@ h3{
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
   cursor: pointer;
 }
 
 .p_title{
   display: flex;
+  text-align: center;
   align-items: center;
+  justify-content:left;
   padding: 16px;
+  margin: auto;
   color: #DDDDDD;
   font-size: 14px;
+  margin: 0;
 }
 
 .page_title{
-  margin-left: 16px;
+  float: left;
+  height: auto;
+  padding: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
