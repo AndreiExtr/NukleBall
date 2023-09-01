@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
         page5.style.display = "none";
         page6.style.display = "none";
         page7.style.display = "none";
-        page8.style.display = "none";
     }
 
     // Начнем с отображения первой страницы "Матчи"
@@ -71,9 +70,6 @@ document.addEventListener("DOMContentLoaded", function() {
         page7.style.display = "block";
     });
 
-    page8Link.addEventListener("click", function() {
-        hideAllPages();
-        page8.style.display = "block";
-    });
+
 
 });
