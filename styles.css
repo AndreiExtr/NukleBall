@@ -47,19 +47,22 @@ body {
     color: #666666;
     align-items: center;
     padding: 16px;
+    cursor: pointer;
 }
 
 .sidebar li:hover {
     background: linear-gradient(90deg, #25A45B,4%, #1F1F1F); 
     border-left: solid 4px #13e66e;
     color: #25A45B;
-    padding-left: 12px;   
+    padding-left: 12px;
+    cursor: pointer;   
 }
 .sidebar li.active {
     background: linear-gradient(90deg, #1F1F1F, #1F1F1F); 
     border-left: solid 4px #1F1F1F;
     color: #25A45B;
-    padding-left: 12px;   
+    padding-left: 12px;  
+    cursor: pointer; 
 }
 
 
@@ -535,6 +538,7 @@ h3{
 
 .card_gamer{
   display:inline-block;
+  position: relative;
   width:25%;
   font-size: 14px;
   padding: 8px;
@@ -638,4 +642,34 @@ h3{
   padding: auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.background_gamer{
+  position: relative;
+  width: auto;
+  height: 300px;
+  padding: 16px;
+  margin-top: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Img/background_gamer.png");
+  background-position: bottom;
+  background-repeat:no-repeat;
+  background-size: cover ;
+  color: #DDDDDD;
+  border-radius: 8px;
+}
+
+.img_gamer{
+  align-items: center;
+  justify-content:left;
+  object-fit: cover;
+  background-image: url(./Img/avatar2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border-radius: 110px;
+  width: 200px;
+  height: 200px;
 }
