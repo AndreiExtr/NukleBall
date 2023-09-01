@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
         page5.style.display = "none";
         page6.style.display = "none";
         page7.style.display = "none";
-        page8.style.display = "none";
     }
 
     // Начнем с отображения первой страницы
