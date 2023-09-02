@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Начнем с отображения первой страницы
     hideAllPages();
-    page1.style.display = "block";
+    page2.style.display = "block";
 
     // Добавляем обработчики событий для переключения между страницами
     page1Link.addEventListener("click", function() {
