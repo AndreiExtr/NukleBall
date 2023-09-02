@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const page5Link = document.getElementById("page5-link");
     const page6Link = document.getElementById("page6-link");
     const page7Link = document.getElementById("page7-link");
-    const page8Link = document.getElementById("card-link");
+    
 
     const page1 = document.getElementById("page1");
     const page2 = document.getElementById("page2");
@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const page5 = document.getElementById("page5");
     const page6 = document.getElementById("page6");
     const page7 = document.getElementById("page7");
-    const page8 = document.getElementById("page8");
 
     // Функция для скрытия всех страниц
     function hideAllPages() {
@@ -69,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         hideAllPages();
         page7.style.display = "block";
     });
+
 
 
 
