@@ -24,10 +24,13 @@ var options = {
           },
         },
         track: {
-            background: '#141414', // Укажите желаемый цвет контуров здесь
+            background: '#1f1f1f', // Укажите желаемый цвет контуров здесь
           },
       },
     },
+    stroke: {
+        lineCap: 'round',
+      },
     labels: ['Speed', 'Accuracy', 'Endurance', 'Power'],
   };
   
