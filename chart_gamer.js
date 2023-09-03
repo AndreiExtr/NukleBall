@@ -23,6 +23,9 @@ var options = {
             },
           },
         },
+        track: {
+            background: '#141414', // Укажите желаемый цвет контуров здесь
+          },
       },
     },
     labels: ['Speed', 'Accuracy', 'Endurance', 'Power'],
