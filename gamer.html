@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NuckleBall</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
 <body>
     <div class="main">
@@ -363,7 +364,14 @@
                     </div>                 
                 </div>
                 <div class="content1">              
-                    <div class="content2">              
+                    <div class="content2"> 
+                        <div class="parameters">Параметры</div>
+                        <div class="con1">
+
+                        </div>  
+                        <div class="con2">
+                            <div class="chart" id="chart"></div>
+                        </div>           
                     </div>
                     <div class="content3">              
                         <div class="content4">              
@@ -381,6 +389,8 @@
                 </div>
             </div>
             <!-- // Страница "Игрок"  -->
+
+
 
             <div id="page3" class="page">
                 <div class="title">
@@ -436,6 +446,7 @@
                 </div>     
             </div>   
 
+            <script src="chart_gamer.js"></script>
             <script src="sidebar.js"></script>
             <script src="pagination.js"></script>
             <script src="tabs.js"></script>

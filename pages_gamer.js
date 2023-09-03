@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         page5.style.display = "none";
         page6.style.display = "none";
         page7.style.display = "none";
+
     }
 
     // Начнем с отображения первой страницы
@@ -67,5 +68,4 @@ document.addEventListener("DOMContentLoaded", function() {
         hideAllPages();
         page7.style.display = "block";
     });
-
 });

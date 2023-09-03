@@ -7,10 +7,3 @@ cards.forEach(card => {
         window.location.href = 'gamer.html'; // Замените на URL второго сайта
     });
 });
-
-// // Добавляем обработчик события клика на иконку "назад"
-// const icon = document.getElementById('icon_left');
-// icon.addEventListener("click", function(e) {
-//     e.preventDefault(); // Отменяем стандартное поведение ссылки
-//     history.back(); // Возвращаемся на предыдущую страницу
-// });
