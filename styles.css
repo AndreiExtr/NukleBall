@@ -792,7 +792,7 @@ h3{
   flex-direction: column;
   border-radius: 8px;
   background-color: #141414;
-  width: 300px;
+  width: 350px;
   height: auto; 
   padding: 16px;
   margin-right: 16px;
@@ -868,7 +868,8 @@ h3{
 }
 .square {
   display: inline-block;
-  align-items: center;
+  text-align: center;
+  padding-top: 24px;
   border-radius: 8px;
   width: calc(50% - 8px) ; /* Ширина квадрата с учетом внутренних отступов */
   margin-bottom: 16px;
@@ -876,11 +877,13 @@ h3{
 }
 
 .inf3{
+  align-items: center;
   color: #DDDDDD;
   font-size: 12px;
   font-weight: 400;
 }
 .inf4{
+  align-items: center;
   padding: 0;
   color: #DDDDDD;
   font-size: 22px;
