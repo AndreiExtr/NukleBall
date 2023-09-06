@@ -826,16 +826,16 @@ h3{
   border-radius: 8px;
   background-color: #141414;
   width: 100%;
-  height: auto; 
   margin-right: 16px;
+  padding: 16px;
 }
 .content7{
   display: flex;
   border-radius: 8px;
   background-color: #141414;
   width: 100%;
-  height: auto; 
   margin-right: 0;
+  padding: 16px;
 }
 .parameters{
   display: flex;
@@ -903,8 +903,10 @@ h3{
 }
 
 .slid {
-  flex: 0 0 150px;
-  height: 176px;
+  display: flex; 
+  flex-direction: column;
+  flex: 0 0 165px;
+  height: 180px;
   width: 100%;
   background-color: #1f1f1f;
   border-radius: 8px;
@@ -914,4 +916,41 @@ h3{
   align-items: center;
   font-size: 24px;
 }
+
+.img1{
+  background-image: url(./Img/avatar2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+    width: 60px;
+    height: 60px;
+}
+.inf7{
+  display: flex;
+  text-align: center;
+  color: #DDDDDD;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.inf8{
+  align-items: center;
+  color: #DDDDDD;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.flash{
+  margin-left: 4px;
+  margin-top: 2px;
+  fill:#e6e213;
+}
+.inf9{
+  color: #e6e213;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 
