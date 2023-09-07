@@ -899,10 +899,7 @@ h3{
 /* СЛАЙДЕР */
 .slider {
   display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth; /* Добавляем плавный скроллинг */
-  width: 100%;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease;
 }
 .container1 {
   overflow: hidden;
@@ -974,24 +971,24 @@ h3{
 }
 .button_scroll{
   display: flex;
-  margin-left: 16px;
+  float: right;
+  margin-left: auto;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   height: 20px;
 }
-.button11{
+.scroll-left{
   fill:#DDDDDD;
 }
-.button11:hover{
+.scroll-left:hover{
   fill:#1e8b4d;
 }
-.button12{
+.scroll-right{
   fill:#DDDDDD;
 }
-.button12:hover{
+.scroll-right:hover{
   fill:#1e8b4d;
 }
+
 
