@@ -982,16 +982,40 @@ h3{
   fill:#DDDDDD;
 }
 .scroll-left:hover{
+  cursor: pointer;
   fill:#1e8b4d;
 }
 .scroll-right{
   fill:#DDDDDD;
 }
 .scroll-right:hover{
+  cursor: pointer;
   fill:#1e8b4d;
 }
 
 /*Видео*/
+.container2 {
+  overflow: hidden;
+  position: relative;
+}
+.sliderV {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.scroll-leftV{
+  fill:#DDDDDD;
+}
+.scroll-leftV:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+.scroll-rightV{
+  fill:#DDDDDD;
+}
+.scroll-rightV:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
 .slidV {
   display: flex; 
   background-size: cover;
@@ -1000,7 +1024,6 @@ h3{
   flex: 0 0 208px;
   height: 140px;
   background-color: #000000;
-  z-index: 1;
   border-radius: 8px;
   margin-right: 16px;
   justify-content: center;
@@ -1023,7 +1046,6 @@ h3{
 .date{
   position: absolute;
   top: 0;
-  width: 100%;
   display: flex;
   z-index: 1;
   align-items: center;

@@ -52,3 +52,4 @@ function animateSlider() {
   isAnimating = true;
   requestAnimationFrame(step);
 }
+
