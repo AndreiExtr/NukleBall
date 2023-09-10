@@ -1018,6 +1018,7 @@ h3{
 }
 .slidV {
   display: flex; 
+  position: relative;
   background-size: cover;
   background-position: center;
   flex-direction: column;
@@ -1045,7 +1046,8 @@ h3{
 }
 .date{
   position: absolute;
-  top: 0;
+  top: 0; /* Располагаем текст вверхнем краю блока */
+  left: 0;
   display: flex;
   z-index: 1;
   align-items: center;
