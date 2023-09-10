@@ -24,6 +24,13 @@ body {
 
 .main{
     display: flex;
+    height: 100%;
+}
+.page{
+  display: block;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
 }
 
 .sidebar {  
@@ -167,7 +174,8 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     color: #DDDDDD;
     margin: auto;
     font-size: 14px;
@@ -229,8 +237,6 @@ form {
     height: 300px;
     padding: 16px;
     margin-top: 0;
-    margin-left: 16px;
-    margin-right: 16px;
     box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Img/background.png");
     background-repeat:no-repeat;
@@ -433,8 +439,7 @@ form {
 }
 
 .cards_block{
-  padding-left: 16px;
-  padding-right: 16px;
+  width: 1005;
 }
 
 .rectangle{
@@ -654,7 +659,8 @@ h3{
   text-align: center;
   align-items: center;
   justify-content:left;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin: auto;
   color: #DDDDDD;
   font-size: 14px;
@@ -676,8 +682,6 @@ h3{
   height: 250px;
   padding: 16px;
   margin-top: 0;
-  margin-left: 16px;
-  margin-right: 16px;
   box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Img/background_gamer.png");
   background-position: bottom;
@@ -782,9 +786,9 @@ h3{
 
 .content1{
   display: flex;
-  width: auto;
-  height: 500px; 
-  margin: 16px;
+  height: 100%; 
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .content2{
@@ -792,8 +796,7 @@ h3{
   flex-direction: column;
   border-radius: 8px;
   background-color: #141414;
-  width: 350px;
-  height: auto; 
+  width: 250px;
   padding: 16px;
   margin-right: 16px;
 }
@@ -804,9 +807,9 @@ h3{
 }
 .content4{
   display: block;
+  flex: 1;
     border-radius: 8px;
     background-color: #141414;
-    height: 242px;
     margin-bottom: 16px;
     padding-top: 16px;
     padding-left: 16px;
@@ -816,9 +819,10 @@ h3{
 
 .content5{
   display: flex;
+  flex: 1;
     border-radius: 8px;
     width: 100%;
-    height: 226px;
+    /* height: 226px; */
     margin-right: 16px;
 }
 .content6{
@@ -827,7 +831,9 @@ h3{
   background-color: #141414;
   width: 100%;
   margin-right: 16px;
-  padding: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
 }
 .content7{
   display: flex;
@@ -839,19 +845,16 @@ h3{
 }
 .parameters{
   display: flex;
-  flex: 1;
   font-weight: 700;
   text-align: center;
-  padding: 0;
+  padding-bottom: 16px;
   margin: 0;
   color: #DDDDDD;
   width: 100%;
-  height: 40px;
 }
 .con1{
   position: relative;
   border-radius: 8px;
-  margin-top: 16px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -904,6 +907,7 @@ h3{
 .container1 {
   overflow: hidden;
   position: relative;
+  padding-bottom: 16px;
 }
 
 .slid {
@@ -997,6 +1001,7 @@ h3{
 .container2 {
   overflow: hidden;
   position: relative;
+  padding-bottom: 16px;
 }
 .sliderV {
   display: flex;
@@ -1017,13 +1022,11 @@ h3{
   fill:#1e8b4d;
 }
 .slidV {
-  display: flex; 
   position: relative;
   background-size: cover;
   background-position: center;
   flex-direction: column;
-  flex: 0 0 208px;
-  height: 140px;
+  flex: 0 0 220px;
   background-color: #000000;
   border-radius: 8px;
   margin-right: 16px;
@@ -1034,8 +1037,7 @@ h3{
 .slidV:hover {
   display: flex; 
   flex-direction: column;
-  flex: 0 0 208px;
-  height: 140px;
+  flex: 0 0 220px;
   background-color: #000000;
   border-radius: 8px;
   margin-right: 16px;
