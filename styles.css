@@ -1170,3 +1170,9 @@ h3{
   font-size: 24px;
   color: #DDDDDD;
 }
+
+/* СКАУТЫ */
+.language{
+  display:block;
+  margin-top: 4px;
+}
