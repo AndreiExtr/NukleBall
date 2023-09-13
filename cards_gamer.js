@@ -7,3 +7,5 @@ cards.forEach(card => {
         window.location.href = 'gamer.html'; // Замените на URL второго сайта
     });
 });
+
+
