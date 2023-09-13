@@ -1176,3 +1176,25 @@ h3{
   display:block;
   margin-top: 4px;
 }
+
+.card_scout{
+  display:inline-block;
+  position: relative;
+  width:25%;
+  font-size: 14px;
+  padding: 8px;
+  margin-right: 24px;
+  border-radius: 8px;
+  background-color: #1F1F1F;
+  box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
+  cursor: pointer;
+}
+
+.card_scout:hover {
+  display:inline-block;
+  width:25%;
+  object-fit: cover;
+  margin-right: 24px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 16px #25a45c49;
+}
