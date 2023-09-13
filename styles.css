@@ -1227,3 +1227,26 @@ h3{
   height: 160px;
   cursor: pointer;
 }
+
+.img_scout{
+  align-items: center;
+  justify-content:center;
+  object-fit: cover;
+  background-image: url(./Img/avatar3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border-radius: 110px;
+  margin-left: 24px;
+  width: 200px;
+  height: 200px;
+}
+.content21{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #141414;
+  width: 100%;
+  padding: 16px;
+  margin-right: 16px;
+}
