@@ -50,7 +50,7 @@ body {
 }
 
 .sidebar li:hover {
-    background: linear-gradient(90deg, #25A45B,4%, #1F1F1F); 
+    background: linear-gradient(90deg, #25A45B 4%, #1F1F1F);
     border-left: solid 4px #13e66e;
     color: #25A45B;
     padding-left: 12px;   
@@ -303,7 +303,7 @@ form {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: var(--button-16-size);
+    font-size: 16px;
   }
 
   .parent3 {
@@ -324,7 +324,7 @@ form {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    font-size: 16зч;
+    font-size: 16px;
 }
 .parent5 {
     display: flex;
