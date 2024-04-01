@@ -381,7 +381,6 @@ form {
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
 }
 
 .icon_filters:hover {
@@ -391,7 +390,6 @@ form {
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
 }
 
 .list{
@@ -608,7 +606,6 @@ h3{
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
 }
 
 .icon_left:hover {
@@ -618,7 +615,6 @@ h3{
   width: 24px;
   height: 24px;
   text-align: center;
-  padding: 8px;
   cursor: pointer;
 }
 
