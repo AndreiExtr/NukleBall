@@ -403,7 +403,7 @@ form {
   margin: 0;
 }
 
-.cards_block{
+.cards_container{
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -413,7 +413,7 @@ form {
   object-fit: cover;
 }
 
-.cards_row1{
+.cards_row{
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
