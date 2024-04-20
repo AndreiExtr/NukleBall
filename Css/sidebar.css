@@ -1,0 +1,76 @@
+.logo{
+  display: flex;
+  align-content: center;
+  justify-content: space-around; 
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.sidebar {  
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  font-family: 'Play';
+  font-weight: 400;
+  background-color: #141414;
+  overflow-x: hidden;   
+}
+
+.sidebar li {
+  width: auto;
+  display: flex;
+  font-family: 'Play';
+  font-weight: 400;
+  color: #666666;
+  align-items: center;
+  padding: 16px;
+}
+
+.sidebar li:hover {
+  background: linear-gradient(90deg, #25a45c71 4%, #1F1F1F);
+  border-left: solid 4px #13e66e;
+  color: #25A45B;
+  padding-left: 12px;   
+}
+
+.sidebar li.active {
+  background: linear-gradient(90deg, #1F1F1F, #1F1F1F); 
+  border-left: solid 4px #1F1F1F;
+  color: #25A45B;
+  padding-left: 12px;   
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.sidebar li.active a, .sidebar li:hover a {
+  color: #25A45B;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.icon {
+  width: 22px; 
+  height: 22px;
+  fill: #666666;
+  margin-right: 16px; 
+}
+
+.sidebar li.active .icon, .sidebar li:hover .icon {
+  width: 22px; 
+  height: 22px;
+  fill: #25A45B;
+  margin-right: 16px; 
+}

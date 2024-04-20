@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #DDDDDD;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.tabs a:hover {
+  color: #25A45B;
+}
+
+.tabs a.active {
+  color: #25A45B;
+}

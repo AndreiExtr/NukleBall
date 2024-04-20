@@ -1,0 +1,103 @@
+.cards_container{
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.rectangle{
+  float: right;
+  object-fit: cover;
+}
+
+.cards_row{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.card {
+  display:inline-block;
+  width:25%;
+  font-size: 14px;
+  object-fit: cover;
+  background-image: url(../Img/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 24px;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
+  height: 160px;
+  cursor: pointer;
+}
+
+.card:hover {
+  display:inline-block;
+  width:25%;
+  object-fit: cover;
+  background-image: url(../Img/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 24px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 16px #25a45c49;
+  height: 160px;
+  cursor: pointer;
+}
+
+p{
+  color: #DDDDDD;
+  position: absolute;
+  font-family: 'Play';
+  font-weight: 700;
+  font-size: 16px;
+  margin: 12px;
+}
+
+h3{
+  float: right;
+  color: #25A45B;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.infa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.infa1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.text{
+  color: #DDDDDD;
+  order: 2;
+  float: left;
+  margin-right: auto;
+}
+
+.icon_map {
+  float: left;
+  order: 1;
+  fill: #25A45B;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+}
+
+.icon_users {
+  float: left;
+  order: 1;
+  fill: #25A45B;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+}

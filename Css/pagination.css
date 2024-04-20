@@ -1,0 +1,28 @@
+/* Стили для контейнера пагинации */
+.pagination {
+  display: flex;
+  list-style: none;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/* Стили для ссылок страниц */
+.pagination a {
+  margin-right: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #DDDDDD;
+  border-radius: 40px;
+}
+
+.pagination a:hover {
+  background-color: #25A45B;
+  color: #DDDDDD;
+}
+
+/* Стили для активной страницы */
+.pagination a.active {
+  background-color: #25A45B;
+  color: #DDDDDD;
+}

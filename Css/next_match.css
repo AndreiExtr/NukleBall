@@ -1,0 +1,193 @@
+.background{
+  position: relative;
+  width: auto;
+  height: 300px;
+  padding: 16px;
+  margin-top: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Img/background.png");
+  background-repeat:no-repeat;
+  background-size: cover ;
+  color: #DDDDDD;
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  z-index: 1;
+  padding-top: 48px;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-family: Play;
+}
+
+.vs-10-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 32px;
+}
+
+.b15 {
+  position: relative;
+  padding-bottom: 14px;
+  font-size: 40px;}
+
+.h3 {
+  position: relative;
+  font-size: 16px;
+}
+
+.timer__items {
+  display: flex;
+  color: #c40b0b;
+  font-size: 18px;
+}
+
+.timer__item {
+  position: relative;
+  min-width: 32px;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.timer__item::before {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+.timer__item:not(:last-child)::after {
+  content: ':';
+  position: absolute;
+  right: -15px;
+}
+
+.shield-1-group {
+  position: relative;
+  width: 55px;
+  height: 83px;
+  padding-right: 32px;
+  text-align: center;
+  font-family: Play;
+}
+
+.shield-2-group {
+  position: relative;
+  width: 55px;
+  height: 83px;
+  padding-left: 32px;
+  text-align: center;
+  font-family: Play;
+}
+
+.parent1 {
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.parent2 {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+
+.parent3 {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 32px;
+}
+
+.parent4 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+
+.parent5 {
+  display: flex;
+  padding-right: 8px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.avatar {
+  position: relative;
+  border-radius: 32px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+
+.icon_bell {
+float:right;
+order: 2;
+margin-right: 16px;
+fill: #DDDDDD;
+width: 24px;
+height: 24px;
+text-align: center;
+padding: 8px;
+}
+
+.icon_bell:hover {
+float:right;
+order: 2;
+margin-right: 16px;
+fill: #25A45B;
+width: 24px;
+height: 24px;
+text-align: center;
+padding: 8px;
+}
+
+.avatar1 {
+float: right;
+margin-left: auto;
+order: 3;
+border-radius: 32px;
+width: 40px;
+height: 40px;
+object-fit: cover;
+mix-blend-mode: normal;
+}
+
+.icon_filters {
+float:right;
+fill: #DDDDDD;
+width: 24px;
+height: 24px;
+text-align: center;
+}
