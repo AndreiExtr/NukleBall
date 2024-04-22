@@ -1,6 +1,9 @@
 .cards_container{
+  display: flex;
+  flex-direction: column;
   padding-left: 16px;
   padding-right: 16px;
+  gap: 24px;
 }
 
 .rectangle{
@@ -10,11 +13,11 @@
 
 .cards_row{
   display: flex;
+  gap: 24px;
   flex-flow: row nowrap;
   align-items: center;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: 24px;
 }
 
 .card {
@@ -25,7 +28,6 @@
   background-image: url(../Img/Rectangle.svg);
   background-repeat: no-repeat;
   background-position: right;
-  margin-right: 24px;
   border-radius: 8px;
   background-color: #2b2b2b;
   box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
@@ -40,7 +42,6 @@
   background-image: url(../Img/Rectangle.svg);
   background-repeat: no-repeat;
   background-position: right;
-  margin-right: 24px;
   border-radius: 8px;
   box-shadow: 6px 6px 16px #25a45c49;
   height: 160px;
