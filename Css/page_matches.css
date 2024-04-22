@@ -196,11 +196,9 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    margin: 16px;
     color: #DDDDDD;
-    margin: auto;
     font-size: 14px;
-    margin: 0;
 }
 
 h1{
@@ -222,18 +220,16 @@ h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  margin: 16px;
   color: #DDDDDD;
-  margin: auto;
   font-size: 14px;
-  margin: 0;
 }
 
 
 
 
 
-.card_gamer{
+/* .card_gamer{
   display:inline-block;
   width:25%;
   font-size: 14px;
@@ -331,4 +327,4 @@ h1{
 
 .page_title{
   margin-left: 16px;
-}
+} */
