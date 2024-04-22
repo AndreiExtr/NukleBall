@@ -2,9 +2,7 @@
 .pagination {
   display: flex;
   list-style: none;
-  margin-bottom: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 16px;
 }
 
 /* Стили для ссылок страниц */
