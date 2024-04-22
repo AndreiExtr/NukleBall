@@ -9,7 +9,7 @@ var originalCard = document.querySelector(".card_gamer");
 var clonedCard = originalCard.cloneNode(true);
 
 // Создаем 16 копий карточки (4 карточки по 4 раза)
-for (var i = 0; i < 6; i++) {
+for (var i = 0; i < 12; i++) {
     // Клонируем исходную карточку
     var cardClone = clonedCard.cloneNode(true);
 
@@ -17,8 +17,12 @@ for (var i = 0; i < 6; i++) {
     var container;
     if (i < 3) {
         container = cardContainer;
-    } else {
+    } else if (i < 6) {
         container = cardContainer1;
+    } else  if (i < 9) {
+        container = cardContainer2;
+    } else {
+      container = cardContainer3;
     }
 
     // Добавляем клонированную карточку в соответствующий контейнер
