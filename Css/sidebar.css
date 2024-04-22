@@ -6,6 +6,18 @@
   overflow-x: hidden;   
 }
 
+@media (max-width: 1500px) {
+  .sidebar {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    min-height: 100vh;
+  }
+}
+
 .logo{
   display: flex;
   align-content: center;
