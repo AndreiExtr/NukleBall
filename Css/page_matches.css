@@ -3,7 +3,6 @@
   width: auto;
   height: 300px;
   padding: 16px;
-  margin-top: 0;
   margin-left: 16px;
   margin-right: 16px;
   box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
@@ -16,12 +15,8 @@
 
 .group {
   display: flex;
-  z-index: 1;
-  padding-top: 48px;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  font-family: Play;
+  justify-content: center; 
+  align-items: center;
 }
 
 .vs-10-group {
@@ -75,21 +70,17 @@
 }
 
 .shield-1-group {
-  position: relative;
   width: 55px;
-  height: 83px;
+  height: auto;
   padding-right: 32px;
   text-align: center;
-  font-family: Play;
 }
 
 .shield-2-group {
-  position: relative;
   width: 55px;
-  height: 83px;
+  height: auto;
   padding-left: 32px;
   text-align: center;
-  font-family: Play;
 }
 
 .parent1 {
@@ -193,18 +184,17 @@ text-align: center;
 }
 
 .title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 16px;
-    color: #DDDDDD;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+  color: #DDDDDD;
+  font-size: 14px;
 }
 
 h1{
-    float: left;
-    margin-top: auto;
-    margin-bottom: auto;
+  float: left;
+  margin: 0;
 }
 
 .icon_filters:hover {

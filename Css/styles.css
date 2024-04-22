@@ -20,14 +20,15 @@ body {
   vertical-align: top;
 }
 
-.main{
+.main {
   display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .content {
   height: 100%; 
   width: 100%;
-  margin-left: 200px;
   position: relative;  
 }
 

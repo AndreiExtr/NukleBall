@@ -1,22 +1,17 @@
+.sidebar {  
+  min-width: 200px;
+  font-family: 'Play';
+  font-weight: 400;
+  background-color: #141414;
+  overflow-x: hidden;   
+}
+
 .logo{
   display: flex;
   align-content: center;
   justify-content: space-around; 
   padding-top: 20px;
   padding-bottom: 0px;
-}
-
-.sidebar {  
-  height: 100%; 
-  width: 200px; 
-  position: fixed; 
-  z-index: 1; 
-  top: 0; 
-  left: 0;
-  font-family: 'Play';
-  font-weight: 400;
-  background-color: #141414;
-  overflow-x: hidden;   
 }
 
 .sidebar li {
