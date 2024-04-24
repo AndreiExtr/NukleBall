@@ -1,9 +1,13 @@
 .sidebar {  
+  position: fixed;
   min-width: 200px;
   font-family: 'Play';
   font-weight: 400;
   background-color: #141414;
-  overflow-x: hidden;   
+  overflow-x: hidden; 
+  left: 0;
+  top: 0;
+  bottom: 0;  
 }
 
 @media (max-width: 1500px) {
