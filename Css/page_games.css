@@ -90,32 +90,6 @@
   width: 100%;
 }
 
-.icon_left {
-  float:left;
-  fill: #DDDDDD;
-  width: 24px;
-  height: 24px;
-  text-align: center;
-}
-
-.icon_left:hover {
-  float: right;
-  z-index: 1;
-  fill: #25A45B;
-  width: 24px;
-  height: 24px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.p_title{
-  display: flex;
-  align-items: center;
-  padding: 16px;
-  color: #DDDDDD;
-  font-size: 14px;
-}
-
 .page_title{
   margin-left: 16px;
 }

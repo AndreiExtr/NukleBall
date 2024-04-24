@@ -130,3 +130,34 @@ document.addEventListener('DOMContentLoaded', function () {
     timerId = setInterval(countdownTimer, 1000);
   });
 //ТАЙМЕР
+
+// ==========================
+
+// ПЕРЕХОД ИЗ СПИСКА КАРТОЧЕК НА СТРАНИЦУ ИГРОКА
+document.addEventListener('DOMContentLoaded', function() {
+  // Получаем все карточки игроков
+  const cardGamers = document.querySelectorAll('.cards_row_gamer');
+
+  // Для каждой карточки игрока добавляем обработчик события клика
+  cardGamers.forEach(function(cardGamer) {
+    cardGamer.addEventListener('click', function() {
+      // Переходим на страницу игрока с id="page2.1"
+      togglePage('page2.1');
+      
+      // Добавляем/удаляем классы активности для визуального отображения текущей страницы в навигации
+      const items = document.querySelectorAll('.nav-item');
+      items.forEach(item => {
+        if (item.id === 'item2.1') {
+          item.classList.add('active');
+        } else {
+          item.classList.remove('active');
+        }
+      });
+
+      // Устанавливаем вкладку "Игроки" в фокусе после перехода на страницу игрока
+      const playersTab = document.getElementById('item2');
+      playersTab.classList.add('active');
+    });
+  });
+});
+

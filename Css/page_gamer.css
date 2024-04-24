@@ -1,0 +1,506 @@
+.p_title{
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  color: #DDDDDD;
+  font-size: 14px;
+}
+
+.button_back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.background_gamer{
+  display: flex;
+  width: auto;
+  align-items: center;
+  height: 250px;
+  padding: 16px;
+  margin: 0 16px;
+  box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Img/background_gamer.png");
+  background-position: bottom;
+  background-repeat:no-repeat;
+  background-size: cover ;
+  color: #DDDDDD;
+  border-radius: 8px;
+}
+
+.avatar_gamer{
+  object-fit: cover;
+  background-image: url("/Img/avatar2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border-radius: 110px;
+  margin-left: 24px;
+  width: 200px;
+  height: 200px;
+}
+
+.info{
+  height: 200px;
+  width: auto;
+  margin-left: 24px;
+}
+
+.inf1{
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.inf2{
+  font-size: 20px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 32px;
+}
+
+.button, .button1, .button2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  background-color: #25A45B; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста */
+  padding: 8px 16px; /* Внутренние отступы кнопки */
+  border-radius: 32px; /* Закругляем углы */
+  height: auto;
+  width: auto;
+}
+
+.button:hover, .button1:hover, .button2:hover {
+  background-color: #1e8b4d;
+}
+
+.user{
+  fill: #DDDDDD;
+}
+
+.share{
+  fill: #DDDDDD;
+}
+
+.icon_left {
+  float:left;
+  fill: #DDDDDD;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+}
+
+.icon_left:hover {
+  float: right;
+  fill: #25A45B;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blocks_contents{
+  display: flex;
+  height: 100%; 
+  margin: 16px;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #141414;
+  width: 250px;
+  padding: 16px;
+  margin-right: 16px;
+}
+.content3{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.content4{
+  display: block;
+  flex: 1;
+    border-radius: 8px;
+    background-color: #141414;
+    margin-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 0;
+}
+
+.content5{
+  display: flex;
+  flex: 1;
+    border-radius: 8px;
+    width: 100%;
+    /* height: 226px; */
+    margin-right: 16px;
+}
+.content6{
+  display: block;
+  border-radius: 8px;
+  background-color: #141414;
+  width: 100%;
+  margin-right: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+.content7{
+  display: block;
+  border-radius: 8px;
+  background-color: #141414;
+  width: 100%;
+  margin-right: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-right: 16px;
+}
+.parameters{
+  display: flex;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 16px;
+  margin: 0;
+  color: #DDDDDD;
+  width: 100%;
+}
+.con1{
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.con2{
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+}
+.chart{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.square {
+  display: inline-block;
+  text-align: center;
+  padding-top: 24px;
+  border-radius: 8px;
+  width: calc(50% - 8px) ; /* Ширина квадрата с учетом внутренних отступов */
+  margin-bottom: 16px;
+  background-color: #1f1f1f; /* Цвет квадрата */
+}
+
+.inf3{
+  align-items: center;
+  color: #DDDDDD;
+  font-size: 12px;
+  font-weight: 400;
+}
+.inf4{
+  align-items: center;
+  padding: 0;
+  color: #DDDDDD;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+/* СЛАЙДЕР */
+
+/* Друзья */
+
+.container1 {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 16px;
+}
+.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slid {
+  display: flex; 
+  flex-direction: column;
+  flex: 0 0 165px;
+  height: 180px;
+  width: 100%;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.slid:hover {
+  display: flex; 
+  flex-direction: column;
+  flex: 0 0 165px;
+  height: 180px;
+  width: 100%;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 12px #25a45c49;
+}
+
+.img1{
+  background-image: url(./Img/avatar2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    border-radius: 100px;
+    margin-bottom: 12px;
+    width: 60px;
+    height: 60px;
+}
+.inf7{
+  display: flex;
+  text-align: center;
+  color: #DDDDDD;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.inf8{
+  align-items: center;
+  color: #DDDDDD;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.flash{
+  margin-left: 4px;
+  margin-top: 2px;
+  fill:#e6e213;
+}
+.inf9{
+  color: #e6e213;
+  font-size: 14px;
+  font-weight: 400;
+}
+.button_scroll{
+  display: flex;
+  float: right;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  height: 20px;
+}
+.scroll-left{
+  fill:#DDDDDD;
+}
+.scroll-left:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+.scroll-right{
+  fill:#DDDDDD;
+}
+.scroll-right:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+
+
+/*Видео*/
+.container2 {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 16px;
+}
+.sliderV {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.scroll-leftV{
+  fill:#DDDDDD;
+}
+.scroll-leftV:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+.scroll-rightV{
+  fill:#DDDDDD;
+}
+.scroll-rightV:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+.slidV {
+  position: relative;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  flex: 0 0 220px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.slidV:hover {
+  flex: 0 0 220px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 12px #25a45c49;
+}
+.date{
+  position: absolute;
+  top: 0; /* Располагаем текст вверхнем краю блока */
+  left: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  padding: 8px;
+  color: #DDDDDD;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.img2{
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  border-radius: 8px;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.play{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.play-button {
+  width: 40px; /* Установите желаемую ширину кнопки */
+  height: 40px; /* Установите желаемую высоту кнопки */
+  background-color: #ffffff27; /* Цвет фона кнопки (синий в данном случае) */
+  border-radius: 50%; /* Создаем круглую форму кнопки */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.triangle {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #1e8b4d; /* Цвет треугольника и его размеры */
+  transform: rotate(270deg); /* Поворачиваем треугольник на 90 градусов */
+}
+
+/*Матчи*/
+.container3 {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 16px;
+}
+
+.sliderM {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.scroll-leftM{
+  fill:#DDDDDD;
+}
+
+.scroll-leftM:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+.scroll-rightM{
+  fill:#DDDDDD;
+}
+
+.scroll-rightM:hover{
+  cursor: pointer;
+  fill:#1e8b4d;
+}
+
+.slidM {
+  position: relative;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  flex: 0 0 220px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.slidM:hover {
+  flex: 0 0 220px;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 12px #25a45c49;
+}
+
+.date{
+  position: absolute;
+  top: 0; /* Располагаем текст вверхнем краю блока */
+  left: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  padding: 8px;
+  color: #DDDDDD;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inf10{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 24px;
+  color: #DDDDDD;
+}
