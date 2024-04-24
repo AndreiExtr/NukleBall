@@ -41,7 +41,7 @@
   box-shadow: 6px 6px 16px #25a45c49;
 }
 
-.cont{
+.card_gamer_infa{
   display: flex;
   justify-content: left;
   align-items: center;
@@ -51,6 +51,18 @@
   width: auto;
   height: 70px;
   margin-bottom: 8px;
+}
+
+.card_gamer_infa1{
+  display: flex;
+  justify-content: left;
+  gap: 8px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #353535;
+  padding: 8px;
+  width: auto;
+  height: 40px;
 }
 
 .img_wrapper{
@@ -71,23 +83,11 @@
   margin-left: 16px;
 }
 
-.cont1{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  border-radius: 8px;
-  background-color: #353535;
-  padding: 8px;
-  width: auto;
-  height: 40px;
-}
-
 .information{
   color: #DDDDDD;
   font-size: 13px;
   font-weight: 400;
   width: 100%;
-  margin-right: 8px;
 }
 
 .icon_left {
