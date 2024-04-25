@@ -202,7 +202,8 @@ var options1 = {
       dataLabels: {
         total: {
           show: true,
-          label: 'Рейтинг'
+          label: 'Рейтинг',
+          color: '#DDDDDD'
         },
         name: {
           fontSize: '24px',
