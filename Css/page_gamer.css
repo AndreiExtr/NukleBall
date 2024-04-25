@@ -146,7 +146,6 @@
   gap: 16px;
   border-radius: 8px;
   width: 100%;
-  /* height: 226px; */
 }
 
 .block_video{
@@ -189,6 +188,9 @@
 }
 
 .con2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 8px;
   width: 100%;
   height: 100%;

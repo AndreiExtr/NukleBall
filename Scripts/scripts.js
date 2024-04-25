@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ==========================
 
-// СКРОЛЛ ДЛЯ БЛОКА ВИДЕО
+// СКРОЛЛ ДЛЯ БЛОКА ВИДЕО, ДРУЗЬЯ И МАТЧИ
 let currentIndexV = 0;
 const slidesV = document.querySelectorAll('.slidV');
 const totalSlidesV = slidesV.length;
@@ -183,4 +183,45 @@ function scrollSliderF(direction) {
   const offset = -currentIndexF * slidesF[0].offsetWidth;
   document.querySelector('.sliderF').style.transform = `translateX(${offset}px)`;
 }
+
+// ==========================
+
+//ДИАГРАММА
+var options1 = {
+  series: [22, 78, 67, 83],
+  chart: {
+    height: 200,
+    type: "radialBar",
+  },
+  series: [67, 84, 97, 61],
+  plotOptions: {
+    radialBar: {
+      track: {
+        background: '#1f1f1f', // Укажите желаемый цвет контуров здесь
+      },
+      dataLabels: {
+        total: {
+          show: true,
+          label: 'Рейтинг'
+        },
+        name: {
+          fontSize: '24px',
+        },
+        value: {
+          fontSize: '14px',
+          color: '#DDDDDD',
+        },
+      }
+    },
+    track: {
+          background: '#1f1f1f', // Укажите желаемый цвет контуров здесь
+    },      
+  },
+  stroke: {
+      lineCap: 'round',
+    },  
+  labels: ['Скорость', 'Точность', 'Ловкость', 'Сила']
+};
+
+new ApexCharts(document.querySelector("#chart"), options1).render();
 
