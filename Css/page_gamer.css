@@ -21,7 +21,7 @@
   padding: 16px;
   margin: 0 16px;
   box-shadow: 10px 10px 32px rgba(0, 0, 0, 0.315);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Img/background_gamer.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Img/background_gamer.png");
   background-position: bottom;
   background-repeat:no-repeat;
   background-size: cover ;
@@ -31,7 +31,7 @@
 
 .avatar_gamer{
   object-fit: cover;
-  background-image: url("/Img/avatar2.jpg");
+  background-image: url("../Img/avatar2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 200px;
