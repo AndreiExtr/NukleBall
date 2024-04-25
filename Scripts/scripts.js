@@ -161,3 +161,26 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// ==========================
+
+// СКРОЛЛ ДЛЯ БЛОКА ВИДЕО
+let currentIndexV = 0;
+const slidesV = document.querySelectorAll('.slidV');
+const totalSlidesV = slidesV.length;
+
+let currentIndexF = 0;
+const slidesF = document.querySelectorAll('.slidF');
+const totalSlidesF = slidesF.length;
+
+function scrollSliderV(direction) {
+  currentIndexV = (currentIndexV + direction + totalSlidesV) % totalSlidesV;
+  const offset = -currentIndexV * slidesV[0].offsetWidth;
+  document.querySelector('.sliderV').style.transform = `translateX(${offset}px)`;
+}
+
+function scrollSliderF(direction) {
+  currentIndexF = (currentIndexF + direction + totalSlidesF) % totalSlidesF;
+  const offset = -currentIndexF * slidesF[0].offsetWidth;
+  document.querySelector('.sliderF').style.transform = `translateX(${offset}px)`;
+}
+
