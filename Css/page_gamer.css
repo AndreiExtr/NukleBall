@@ -107,89 +107,94 @@
 
 .blocks_contents{
   display: flex;
+  flex-direction: row;
+  gap: 16px;
   height: 100%; 
   margin: 16px;
 }
 
-.content2{
+.blocks_contents_infa{
   display: flex;
   flex-direction: column;
+  gap: 16px;
   border-radius: 8px;
   background-color: #141414;
   width: 250px;
   padding: 16px;
-  margin-right: 16px;
 }
-.content3{
-  display: block;
+
+.blocks_contents_friend_video{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   width: 100%;
   height: auto;
 }
-.content4{
-  display: block;
-  flex: 1;
-    border-radius: 8px;
-    background-color: #141414;
-    margin-bottom: 16px;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 0;
+
+.blocks_contents_friend{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #141414;
+  padding: 16px;
 }
 
-.content5{
+.blocks_contents_video{
   display: flex;
-  flex: 1;
-    border-radius: 8px;
-    width: 100%;
-    /* height: 226px; */
-    margin-right: 16px;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  width: 100%;
+  /* height: 226px; */
 }
-.content6{
-  display: block;
+
+.block_video{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   border-radius: 8px;
   background-color: #141414;
   width: 100%;
-  margin-right: 16px;
-  padding-left: 16px;
-  padding-top: 16px;
-  padding-right: 16px;
+  padding: 16px;
 }
-.content7{
-  display: block;
+
+.block_match{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   border-radius: 8px;
   background-color: #141414;
   width: 100%;
-  margin-right: 0;
-  padding-left: 16px;
-  padding-top: 16px;
-  padding-right: 16px;
+  padding: 16px;
 }
+
 .parameters{
   display: flex;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 16px;
   margin: 0;
   color: #DDDDDD;
   width: 100%;
 }
+
 .con1{
-  position: relative;
   border-radius: 8px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 16px;
   width: 100%;
   height: 100%;
 }
+
 .con2{
-  display: block;
   border-radius: 8px;
   width: 100%;
   height: 100%;
   background-color: #1f1f1f;
 }
+
 .chart{
   display: flex;
   width: 100%;
@@ -197,13 +202,12 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .square {
-  display: inline-block;
   text-align: center;
   padding-top: 24px;
   border-radius: 8px;
   width: calc(50% - 8px) ; /* Ширина квадрата с учетом внутренних отступов */
-  margin-bottom: 16px;
   background-color: #1f1f1f; /* Цвет квадрата */
 }
 
@@ -213,6 +217,7 @@
   font-size: 12px;
   font-weight: 400;
 }
+
 .inf4{
   align-items: center;
   padding: 0;
@@ -229,14 +234,16 @@
 .container1 {
   overflow: hidden;
   position: relative;
-  padding-bottom: 16px;
 }
-.slider {
+
+.sliderF {
   display: flex;
+  flex-direction: row;
+  gap: 16px;
   transition: transform 0.3s ease;
 }
 
-.slid {
+.slidF {
   display: flex; 
   flex-direction: column;
   flex: 0 0 165px;
@@ -244,23 +251,11 @@
   width: 100%;
   background-color: #1f1f1f;
   border-radius: 8px;
-  margin-right: 16px;
   justify-content: center;
   align-items: center;
   font-size: 24px;
 }
-.slid:hover {
-  display: flex; 
-  flex-direction: column;
-  flex: 0 0 165px;
-  height: 180px;
-  width: 100%;
-  background-color: #1f1f1f;
-  border-radius: 8px;
-  margin-right: 16px;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
+.slidF:hover {
   box-shadow: 2px 2px 12px #25a45c49;
 }
 
@@ -294,11 +289,13 @@
   margin-top: 2px;
   fill:#e6e213;
 }
+
 .inf9{
   color: #e6e213;
   font-size: 14px;
   font-weight: 400;
 }
+
 .button_scroll{
   display: flex;
   float: right;
@@ -308,17 +305,21 @@
   flex-direction: row;
   height: 20px;
 }
-.scroll-left{
+
+.scroll-leftF{
   fill:#DDDDDD;
 }
-.scroll-left:hover{
+
+.scroll-leftF:hover{
   cursor: pointer;
   fill:#1e8b4d;
 }
-.scroll-right{
+
+.scroll-rightF{
   fill:#DDDDDD;
 }
-.scroll-right:hover{
+
+.scroll-rightF:hover{
   cursor: pointer;
   fill:#1e8b4d;
 }
@@ -328,50 +329,48 @@
 .container2 {
   overflow: hidden;
   position: relative;
-  padding-bottom: 16px;
 }
+
 .sliderV {
   display: flex;
+  flex-direction: row;
+  gap: 16px;
   transition: transform 0.3s ease;
 }
+
 .scroll-leftV{
   fill:#DDDDDD;
 }
+
 .scroll-leftV:hover{
   cursor: pointer;
   fill:#1e8b4d;
 }
+
 .scroll-rightV{
   fill:#DDDDDD;
 }
+
 .scroll-rightV:hover{
   cursor: pointer;
   fill:#1e8b4d;
 }
+
 .slidV {
   position: relative;
   height: 160px;
   background-size: cover;
   background-position: center;
-  flex-direction: column;
   flex: 0 0 220px;
   background-color: #000000;
   border-radius: 8px;
-  margin-right: 16px;
-  justify-content: center;
-  align-items: center;
   font-size: 24px;
 }
+
 .slidV:hover {
-  flex: 0 0 220px;
-  background-color: #000000;
-  border-radius: 8px;
-  margin-right: 16px;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
   box-shadow: 2px 2px 12px #25a45c49;
 }
+
 .date{
   position: absolute;
   top: 0; /* Располагаем текст вверхнем краю блока */
@@ -428,11 +427,12 @@
 .container3 {
   overflow: hidden;
   position: relative;
-  padding-bottom: 16px;
 }
 
 .sliderM {
   display: flex;
+  flex-direction: row;
+  gap: 16px;
   transition: transform 0.3s ease;
 }
 
@@ -444,6 +444,7 @@
   cursor: pointer;
   fill:#1e8b4d;
 }
+
 .scroll-rightM{
   fill:#DDDDDD;
 }
@@ -458,24 +459,13 @@
   height: 160px;
   background-size: cover;
   background-position: center;
-  flex-direction: column;
   flex: 0 0 220px;
   background-color: #000000;
   border-radius: 8px;
-  margin-right: 16px;
-  justify-content: center;
-  align-items: center;
   font-size: 24px;
 }
 
 .slidM:hover {
-  flex: 0 0 220px;
-  background-color: #000000;
-  border-radius: 8px;
-  margin-right: 16px;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
   box-shadow: 2px 2px 12px #25a45c49;
 }
 
