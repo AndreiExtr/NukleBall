@@ -205,14 +205,11 @@ var options = {
           label: 'Рейтинг',
           color: '#DDDDDD'
         },
-        formatter: function (w) {
-          return 249;
-        },
         name: {
-          fontSize: '18px',
+          fontSize: '12px',
         },
         value: {
-          fontSize: '12px',
+          fontSize: '18px',
           color: '#DDDDDD',
         },
       }
