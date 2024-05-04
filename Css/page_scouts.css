@@ -54,6 +54,7 @@
 
 @media (max-width: 1200px) {
   .card_scout {
+    flex: 0;
     flex-basis: 100%; /* изменено на 100% при ширине экрана до 330px */
   }
 }
