@@ -203,23 +203,22 @@
 }
 
 .square {
-  text-align: center;
-  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 8px;
   width: calc(50% - 8px) ; /* Ширина квадрата с учетом внутренних отступов */
   background-color: #1f1f1f; /* Цвет квадрата */
 }
 
 .inf3{
-  align-items: center;
   color: #DDDDDD;
   font-size: 14px;
   font-weight: 400;
 }
 
 .inf4{
-  align-items: center;
-  padding: 0;
   color: #25A45B;
   font-size: 22px;
   font-weight: 700;
