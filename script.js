@@ -206,10 +206,10 @@ var options = {
           color: '#DDDDDD'
         },
         name: {
-          fontSize: '20px',
+          fontSize: '18px',
         },
         value: {
-          fontSize: '14px',
+          fontSize: '12px',
           color: '#DDDDDD',
         },
       }
