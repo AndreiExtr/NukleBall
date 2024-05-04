@@ -205,6 +205,9 @@ var options = {
           label: 'Рейтинг',
           color: '#DDDDDD'
         },
+        formatter: function (w) {
+          return 249;
+        },
         name: {
           fontSize: '18px',
         },
@@ -224,5 +227,6 @@ var options = {
   labels: ['Скорость', 'Точность', 'Ловкость', 'Сила']
 };
 
-new ApexCharts(document.querySelector("#chart"), options).render();
+var chart = new ApexCharts(document.querySelector("#chart"), options);
+  chart.render();
 

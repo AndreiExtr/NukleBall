@@ -259,7 +259,7 @@
 }
 
 .img1{
-  background-image: url(./Img/avatar2.jpg);
+  background-image: url("../Img/avatar2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 200px;
