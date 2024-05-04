@@ -187,7 +187,7 @@ function scrollSliderF(direction) {
 // ==========================
 
 //ДИАГРАММА
-var options1 = {
+var options = {
   series: [22, 78, 67, 83],
   chart: {
     height: 200,
@@ -206,7 +206,7 @@ var options1 = {
           color: '#DDDDDD'
         },
         name: {
-          fontSize: '24px',
+          fontSize: '20px',
         },
         value: {
           fontSize: '14px',
@@ -224,5 +224,5 @@ var options1 = {
   labels: ['Скорость', 'Точность', 'Ловкость', 'Сила']
 };
 
-new ApexCharts(document.querySelector("#chart"), options1).render();
+new ApexCharts(document.querySelector("#chart"), options).render();
 
