@@ -1,3 +1,12 @@
+// Устанавливаем фокус на первой вкладке при загрузке страницы
+window.onload = function() {
+  const firstItem = document.querySelector('.nav-item');
+  firstItem.classList.add('active');
+
+  // Активируем раздел "Игроки" по умолчанию
+  togglePage('page1');
+};
+
 // ==========================
 
 // ИГРОКИ
