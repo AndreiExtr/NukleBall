@@ -133,97 +133,61 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // ==========================
 
-// ПЕРЕХОД ИЗ СПИСКА КАРТОЧЕК НА СТРАНИЦУ ИГРОКА
+
+
+// // ПЕРЕХОД ИЗ СПИСКА КАРТОЧЕК НА СТРАНИЦУ ИГРОКА
 document.addEventListener('DOMContentLoaded', function() {
   // Получаем все карточки игроков
   const cardGamers = document.querySelectorAll('.cards_row_gamer');
 
+  // Получаем текущий активный раздел в боковой панели
+  const currentActiveSection = document.querySelector('.sidebar .nav-item.active');
+
   // Для каждой карточки игрока добавляем обработчик события клика
   cardGamers.forEach(function(cardGamer) {
     cardGamer.addEventListener('click', function() {
-      // Переходим на страницу игрока с id="page2.1"
-      togglePage('page2.1');
+      // Переходим на страницу игрока
+      window.location.href = `page_gamer.html`;
       
-      // Добавляем/удаляем классы активности для визуального отображения текущей страницы в навигации
-      const items = document.querySelectorAll('.nav-item');
-      items.forEach(item => {
-        if (item.id === 'item2.1') {
-          item.classList.add('active');
-        } else {
-          item.classList.remove('active');
-        }
-      });
 
       // Устанавливаем вкладку "Игроки" в фокусе после перехода на страницу игрока
       const playersTab = document.getElementById('item2');
       playersTab.classList.add('active');
     });
   });
+
+  // Если текущий активный раздел в боковой панели был "Игроки", активируем его снова
+  if (currentActiveSection && currentActiveSection.id === 'item2') {
+    currentActiveSection.classList.add('active');
+  }
 });
 
-// ==========================
 
-// СКРОЛЛ ДЛЯ БЛОКА ВИДЕО, ДРУЗЬЯ И МАТЧИ
-let currentIndexV = 0;
-const slidesV = document.querySelectorAll('.slidV');
-const totalSlidesV = slidesV.length;
+// document.addEventListener('DOMContentLoaded', function() {
+//   // Получаем все карточки игроков
+//   const cardGamers = document.querySelectorAll('.cards_row_gamer');
 
-let currentIndexF = 0;
-const slidesF = document.querySelectorAll('.slidF');
-const totalSlidesF = slidesF.length;
+//   // Для каждой карточки игрока добавляем обработчик события клика
+//   cardGamers.forEach(function(cardGamer) {
+//     cardGamer.addEventListener('click', function() {
+//       // // Переходим на страницу игрока с id="page2.1"
+//       window.location.href = `page_gamer.html`;
+      
+//       // Добавляем/удаляем классы активности для визуального отображения текущей страницы в навигации
+//       const items = document.querySelectorAll('.nav-item');
+//       items.forEach(item => {
+//         if (item.id === 'item2.1') {
+//           item.classList.add('active');
+//         } else {
+//           item.classList.remove('active');
+//         }
+//       });
 
-function scrollSliderV(direction) {
-  currentIndexV = (currentIndexV + direction + totalSlidesV) % totalSlidesV;
-  const offset = -currentIndexV * slidesV[0].offsetWidth;
-  document.querySelector('.sliderV').style.transform = `translateX(${offset}px)`;
-}
+//       // Устанавливаем вкладку "Игроки" в фокусе после перехода на страницу игрока
+//       const playersTab = document.getElementById('item2');
+//       playersTab.classList.add('active');
+//     });
+//   });
+// });
 
-function scrollSliderF(direction) {
-  currentIndexF = (currentIndexF + direction + totalSlidesF) % totalSlidesF;
-  const offset = -currentIndexF * slidesF[0].offsetWidth;
-  document.querySelector('.sliderF').style.transform = `translateX(${offset}px)`;
-}
-
-// ==========================
-
-//ДИАГРАММА
-var options = {
-  series: [22, 78, 67, 83],
-  chart: {
-    height: 200,
-    type: "radialBar",
-  },
-  series: [67, 84, 97, 61],
-  plotOptions: {
-    radialBar: {
-      track: {
-        background: '#1f1f1f', // Укажите желаемый цвет контуров здесь
-      },
-      dataLabels: {
-        total: {
-          show: true,
-          label: 'Рейтинг',
-          color: '#DDDDDD'
-        },
-        name: {
-          fontSize: '12px',
-        },
-        value: {
-          fontSize: '18px',
-          color: '#DDDDDD',
-        },
-      }
-    },
-    track: {
-          background: '#1f1f1f', // Укажите желаемый цвет контуров здесь
-    },      
-  },
-  stroke: {
-      lineCap: 'round',
-    },  
-  labels: ['Скорость', 'Точность', 'Ловкость', 'Сила']
-};
-
-var chart = new ApexCharts(document.querySelector("#chart"), options);
-  chart.render();
 

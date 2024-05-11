@@ -2,7 +2,11 @@
 window.onload = function() {
   const firstItem = document.querySelector('.nav-item');
   firstItem.classList.add('active');
+
+  // Активируем раздел "Игроки" по умолчанию
+  togglePage('page1');
 };
+
 
 // ПЕРЕКЛЮЧЕНИЯ ПО ВКЛАДКАМ В SIDEBAR
 function togglePage(pageId) {
@@ -20,10 +24,13 @@ function togglePage(pageId) {
 const items = document.querySelectorAll('.nav-item');
 items.forEach(item => {
   item.addEventListener('click', () => {
+    // Удаляем класс 'active' у всех других элементов
     items.forEach(otherItem => {
       otherItem.classList.remove('active');
     });
+    // Добавляем класс 'active' к текущему элементу
     item.classList.add('active');
   });
 });
+
 
